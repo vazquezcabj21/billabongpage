@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import { Stack, Text, Image, Heading } from "@chakra-ui/react";
+import { Stack, Text, Image, Heading, Divider } from "@chakra-ui/react";
 function App() {
   return (
     <Stack>
@@ -19,9 +19,10 @@ function App() {
             src="https://imagenes.elpais.com/resizer/jEf8SduE_TjO2N50XqEIgNAV69Q=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/27XXT6AKYVEUFM5BMR3LDLBCRU.jpg"
           />
         </Stack>
-        <Stack>
+        <Stack direction='column' spacing={6} textAlign='center'>
           <Text>
             <Heading>Billabong Summer 2022</Heading>
+            <Text color='gray.400' textStyle='italic'> Summer collection 2022. Winter coming soon. </Text>
             <Text>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</Text>
           </Text>
         </Stack>
