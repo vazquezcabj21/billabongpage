@@ -1,0 +1,10 @@
+.item-list-header{
+    padding: 4px
+}
+
+.item-list-header:hover{
+    background-color: grey;
+    color: white;
+    transition: 1s all ease-in-out;
+    padding: 4px
+}
