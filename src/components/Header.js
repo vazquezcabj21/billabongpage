@@ -5,11 +5,12 @@ import "./Header.css";
 const Header = () => {
   return (
     <Stack
-      px={8}
-      spacing={6}
+      px={[0, 8]}
+      spacing={[0, 8]}
       direction="row"
       alignItems="center"
       justifyContent="space-between"
+      width={["100%"]}
     >
       <Stack direction="row" alignItems="center">
         <Image

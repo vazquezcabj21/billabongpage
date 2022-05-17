@@ -13,7 +13,6 @@ function App() {
       <Frente />
       <Beneficios />
       <Destacados />
-      <Image src="file:///C:/Users/Admin/Downloads/1-slide-1651158220859-2907204306-031b77d8e15b9897702b02e37b22dae41651158224-1920-1920%20(1).webp" alt = 'banner'></Image>
       <VideoSection></VideoSection>
     </Stack>
   );

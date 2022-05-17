@@ -2,11 +2,12 @@ import { Stack, Text, Image, Heading } from "@chakra-ui/react";
 const Frente = () => {
     return(
         <Stack
-        direction="row"
+        direction={["column", "row"]}
         alignItems="center"
         px={8}
         justifyContent="space-between"
         spacing={6}
+        width={["100%"]}
       >
         <Stack alignItems='center' w='100%'>
           <Image
