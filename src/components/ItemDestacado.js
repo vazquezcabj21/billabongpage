@@ -1,11 +1,13 @@
 import { Stack, Text, Image } from "@chakra-ui/react";
+import './ItemDestacado.css'
+
 const ItemDestacado = (props) => {
     return(
         <Stack id = 'item-destacado'>
           <Image boxSize = '280px' objectFit = 'cover' borderRadius={14} src = {props.src}></Image>
-          <Text id="title">CAMPERA DE HOMBRE</Text>
-          <Text id = 'precio'>$2100</Text>
-          <Text id = 'cuotas'>12 Cuotas sin interes de $12020</Text>
+          <Text id="title" fontWeight={"bolder"} fontSize={"md"} letterSpacing={0}>{props.titulo}</Text>
+          <Text id = 'precio' fontStyle={"italic"} fontSize={"sm"}>{props.precio}</Text>
+          <Text id = 'cuotas' fontSize={"xs"}>{props.cuotas}</Text>
         </Stack>
     )
 }

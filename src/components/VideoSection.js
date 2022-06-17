@@ -12,7 +12,7 @@ const VideoSection = () => {
     return(
         <Stack paddingY={[12]} direction={["column", "row"]} justifyContent={['center']} width={["100%"]}>
             <Video title = 'billabong' src = "https://www.youtube.com/embed/pi487Lnr3QE"></Video>
-            <Stack>
+            <Stack px={8}>
                 <Text style={styleText}  >WE</Text>
                 <Text style={styleText}>ARE</Text>
                 <Text style={styleText}>PROGRESSIVE</Text>

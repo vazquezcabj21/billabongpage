@@ -20,8 +20,8 @@ const Frente = () => {
         <Stack direction='column' spacing={6} textAlign='center'>
           <Text>
             <Heading>Billabong Summer 2022</Heading>
-            <Text color='gray.400' textStyle='italic'> Summer collection 2022. Winter coming soon. </Text>
-            <Text>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</Text>
+            <Text color='gray.400'  marginY = {6}> Summer collection 2022. Winter coming soon. </Text>
+            <Text backgroundColor={"#222"} color= {"#fff"} padding = {2}>Una línea en donde lo bohemio se encuentra con la frescura de la costa, o el frío del invierno.</Text>
           </Text>
         </Stack>
       </Stack>
