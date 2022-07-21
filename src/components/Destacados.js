@@ -8,18 +8,22 @@ const Destacados = () => {
           DESTACADOS HOMBRES
         </Text>
       </Stack>
-      <Stack direction={["column","column","row"]} justifyContent={"center"} alignItems={["center"]}>
-        <ItemDestacado
-          src="https://d3ugyf2ht6aenh.cloudfront.net/stores/987/679/products/mbremfne-b-1-11-b57e1fc581d07a63a916452136420695-320-0.jpg"
-          titulo="Remera blanca lisa"
-          precio="$3999"
-          cuotas="3 cuotas sin interes de $1200"
-        />
+      <Stack
+        direction={["column", "column", "row"]}
+        justifyContent={"center"}
+        alignItems={["center"]}
+      >
         <ItemDestacado
           src="https://d3ugyf2ht6aenh.cloudfront.net/stores/987/679/products/mbpanjog-j-31-322cc6770e48bc432116458041835401-320-0.jpg"
           titulo="Jogging flex"
           precio="$8999"
           cuotas="6 cuotas de $2000"
+        />
+        <ItemDestacado
+          src="https://d3ugyf2ht6aenh.cloudfront.net/stores/987/679/products/mbremfne-b-1-11-b57e1fc581d07a63a916452136420695-320-0.jpg"
+          titulo="Remera blanca lisa"
+          precio="$3999"
+          cuotas="3 cuotas sin interes de $1200"
         />
         <ItemDestacado
           src="https://d3ugyf2ht6aenh.cloudfront.net/stores/987/679/products/19227005-j_21-719ebf4b7a597f2ab016469231615755-320-0.jpg"
@@ -39,7 +43,11 @@ const Destacados = () => {
           DESTACADOS MUJERES
         </Text>
       </Stack>
-      <Stack direction={["column","column","row"]} justifyContent={"center"} alignItems={"center"}>
+      <Stack
+        direction={["column", "column", "row"]}
+        justifyContent={"center"}
+        alignItems={"center"}
+      >
         <ItemDestacado
           src="https://d3ugyf2ht6aenh.cloudfront.net/stores/987/679/products/16128902-j-21-7cdebdd977c5fdc0fb16448715872618-320-0.jpg"
           titulo="Campera de mujer"
